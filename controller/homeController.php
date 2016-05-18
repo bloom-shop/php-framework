@@ -20,15 +20,33 @@ switch ( $route->getAction() ) {
       }
         break;
 
-  case 'home':
+  case 'table':
+  $dbObj = new db();
+
+  $sql = "SELECT * from store_inventory";
+  $dbObj->dbPrepare($sql);
+  $dbObj->dbExecute([]);
+  
         include( APP_VIEW .'/home/homeSubNav.php' );
-        include( APP_VIEW .'/home/homeView.php' );
+        include( APP_VIEW .'/home/tableView.php' );
         break;
 
     default:
-        include( APP_VIEW .'/home/homeSubNav.php' );
-        include( APP_VIEW .'/home/homeView.php' );
-        break;
+
+    $dbObj = new db();
+
+    $sql = "SELECT * from app_user";
+    $dbObj->dbPrepare($sql);
+    $dbObj->dbExecute([]);
+    $row = $dbObj->dbFetch("assoc");
+
+    print '<pre>';
+    print_r($row);
+    print '<pre>';
+
+    include( APP_VIEW .'/home/homeSubNav.php' );
+    include( APP_VIEW .'/home/homeView.php' );
+    break;
 }
 
 
