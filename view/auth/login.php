@@ -1,3 +1,7 @@
+<figure>
+     <figcaption><h5>"Where you bring your POOCH to make them PRETTY-Full Service Dog Spa."</h5></figcaption>
+     <img id="dogsintub" src="/project/assets/blogPost/reminder-book-groom.jpg" alt="human groomers"/>
+ </figure>
 <!-- start page container -->
   <div class="container-fluid">
     <div class="row">

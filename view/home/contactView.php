@@ -1,7 +1,19 @@
 
+<figure>
+     <figcaption><h5>"Where you bring your POOCH to make them PRETTY-Full Service Dog Spa."</h5></figcaption>
+     <!--javascript-->
+       <img id="contact-us-dog" src="/project/assets/blogPost/Contact-us-dog.jpg"
+     onMouseOver="this.src='/project/assets/blogPost/reminder-book-groom.jpg'; "
+     onMouseOut="this.src='/project/assets/blogPost/Contact-us-dog.jpg';"
+      alt="hover effect" width=400/>
+       <script>
+                 document.getElementById("contact-us-dog");
+         </script>
+     <!--javascript end-->
+ </figure>
         <!-- page content -->
         <div class="col-md-9">
-          <div class="well pageContent">
+          <div class="pageContent">
             <form method="post" action="<?php print APP_DOC_ROOT . '/home/contact'; ?>">
               <div class="form-group">
                 <label for="name">Name</label>
