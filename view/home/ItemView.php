@@ -5,10 +5,15 @@
 
               <h3><strong>Item Number:  <?php print $row['item_number']; ?></h3>
               <p>
-              <img src="<?php echo APP_BLOG_IMG . '/' . $row['id'] . '.jpg'; ?>"><?php print $row['Description']; ?></p>
+              <img src="<?php echo APP_BLOG_IMG . '/' . $row['id'] . '.jpg'; ?>" width=35%>
+              <?php print $row['Description']; ?></p>
+              <small>Quantity on Hand: <?php print $row['Quantity']; ?></small>
               <br>
               <h3><strong>$<?php print $row['Retail']; ?> each</h3>
-              <small>Quantity on Hand: <?php print $row['Quantity']; ?></small>
+
+              <a class="btn btn-default" href="<?php echo APP_DOC_ROOT . '/home/addToCart/' . $row['id']; ?>">Add to Cart</a>
+              <br>
+
 
           </div>
         </div>

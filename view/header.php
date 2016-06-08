@@ -9,10 +9,11 @@
 
     <title>PRETTY POOCH</title />
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="////cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"/>
+    <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css"/>-->
+    <link rel="stylesheet" href="<?php echo APP_DOC_ROOT; ?>/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<?php echo APP_DOC_ROOT; ?>/css/font-awesome.css"/>
+    <!--<link rel="stylesheet" href="////cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"/>-->
     <link rel="stylesheet" href="<?php echo APP_DOC_ROOT; ?>/css/style.css"/>
-
     <!--adding stylesheets-->
     <link rel="stylesheet" href="<?php echo APP_DOC_ROOT; ?>/css/boilerplate.css"/>
     <link rel="stylesheet" href="<?php echo APP_DOC_ROOT; ?>/css/portfolioResponsive.css"/>
@@ -69,10 +70,7 @@
         </nav>
         <h6 class="fluid mainTagline textStyle">.</h6></div>
         <div><h1 class="fluid mainHeading headingStyle">PRETTY POOCH</h1>
-          <!--<figure>
-               <figcaption><h5>"Where you bring your POOCH to make them PRETTY-Full Service Dog Spa."</h5></figcaption>
-               <img id="dogsintub" src="/project/assets/blogPost/pet-grooming.jpg" alt="dog groomers"/>
-           </figure>-->
+          
         </div>
 
       </div>

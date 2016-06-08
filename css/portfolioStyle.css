@@ -21,14 +21,23 @@ p{
 	line-height: 1.8;
 }
 
+#shoppingCart{
+float:right;
+margin-bottom: 0px;
+margin-top: 20px;
+position: relative;
+width: 15%;
+background-color: violet;
 
+
+}
 /* Link styles*/
 a {
 	color: blue;
   display: block;
 	font-family: 'montserrat', sans-serif;
 	font-style: italic;
-	text-weight: 900;
+	font-weight: 900;
 	list-style-type: none;
 	background-color: #B8944D;
 	background-position: -7px -4px;
@@ -48,8 +57,6 @@ a {
 	word-spacing: normal;
 	letter-spacing: normal;
 	width: 25%;
-	/*took off of user and others*/
-	/*text-shadow: 0px 0.2em 0.2em #1B1B1B;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 0px;
@@ -59,7 +66,6 @@ a {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-
 
 a:visited {
 	color: aqua;
@@ -83,16 +89,15 @@ a:visited {
 	text-decoration: underline;
 	word-spacing: normal;
 	letter-spacing: normal;
-	/*text-shadow: 0px 0.25em 0.25em #1B1B1B;*/
 	-webkit-box-shadow: inset 0px 0px;
 	box-shadow: inset 0px 0px;
 	margin-left: 0px;
 	padding-left: 0px;
 }
-/*makes it white with purple border, use to be red*/
+
 a:hover {
 	color: brown;
-	background-color: white; /*#A40719;*/
+	background-color: white;
 	-webkit-box-shadow: inset 0.25em 0.25em 0.25em 0.25em #B37086;
 	box-shadow: inset 0.25em 0.25em 0.25em 0.25em #B37086;
 	position: relative;
@@ -113,8 +118,6 @@ a:hover {
 	text-decoration: underline;
 	word-spacing: normal;
 	letter-spacing: normal;
-	/*text-shadow: 0px 0.25em 0.25em #1B1B1B;
-	text-outline: white;*/
 	background-position: -7px -4px;
 	background-clip: border-box;
 	background-origin: padding-box;
@@ -124,7 +127,6 @@ a:hover {
 
 .linkStyle{
 	font-family: 'montserrat', sans-serif;
-	/*font: italic bold black;*/
 	background-color: #B8944D;
   background-image:;
 	background-position: -7px -4px;
@@ -144,8 +146,6 @@ a:hover {
 	word-spacing: normal;
 	letter-spacing: normal;
 	color: #E3F498;
-	/*took off user*/
-	/*text-shadow: 0px 0.25em 0.25em #1B1B1B;*/
 	line-height: normal;
 	font-weight: 900;
 	font-variant: normal;
@@ -165,7 +165,6 @@ a:hover {
 	text-align: center;
 	padding-top: 20px;
 	padding-top: 0px;
-	/* [disabled]background-size: contain; */
 	left: auto;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -194,28 +193,27 @@ a:hover {
 	width: 100%;
 }
 /* Navigation styles*/
-
 }
-/*does nothing*/
+
 .topNavUl {
 	clear: both;
 	display: inline-block;
 	position: relative;
 }
 
-/*does nothing*/
 .topNavLI {
 	width: 100%;
 	position: relative;
 	display: inline-block;
 	list-style-type: none;
 }
+
 ul.nav.navbar-left: {
 float: left;
 display:block;
-clear:none;
 margin-right: 25px;
 }
+
 /* Typography styles*/
 .textStyle {
 	font-family: 'montserrat', sans-serif;
@@ -226,10 +224,8 @@ margin-right: 25px;
 	background-color: #F4D478;
 	background-size: contain;
 }
+
 .headingStyle {
-	/* [disabled]font-family: 'montserrat', sans-serif; */
-	/* [disabled]font-style: normal; */
-	/* [disabled]font-weight: 400; */
 	color: rgba(114,35,36,1.00);
 	font-size: 32px;
 	font-variant: normal;
@@ -244,6 +240,7 @@ margin-right: 25px;
 	padding-left: 0px;
 	z-index: 2;
 }
+
 .mainHeading {
 	color: rgba(178,145,81,1.00);
 	text-align: center;
@@ -267,6 +264,7 @@ margin-right: 25px;
 	white-space: normal;
 	text-transform: capitalize;
 }
+
 .mainTagline {
 	color: rgba(213,240,61,1.00);
 	font-size: 16px;
@@ -274,18 +272,16 @@ margin-right: 25px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	/*position: relative;*/
 	width: 100%;
 	font-style: italic;
 	text-align: center;
 }
+
 .sectionText {
 	text-align: center;
-	/*background-image: url(url);*/
 	color: rgba(178,145,81,1.00);
 	font-style: italic;
 	text-shadow: 0.15em 0.15em 0.15em #979797;
-	/*vertical-align: center;*/
 	white-space: normal;
 	word-spacing: normal;
 	letter-spacing: normal;
@@ -293,18 +289,21 @@ margin-right: 25px;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 }
+
 #clock{
 	float:right;
 	clear: both;
+	padding-right: 20px;
 }
+
 #sectionOne {
 	text-align: center;
 	width: 100%;
 }
+
 #sectionTwo {
 	text-align: center;
 	width: 100%;
-
 }
 
 /* Gallery styles */
@@ -342,45 +341,57 @@ margin-right: 25px;
 	background-image: url(/project/assets/blogPost/paw-brown.png);
 	background-repeat: no-repeat;
 }
-.showAreaH2 {
 
+.showAreaH2 {
 }
+
 #secondaryStyling {
 	padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .secondarySection {
 	background-color: ;
 }
+
 .secondaryHeading {
 	color: rgba(255,255,255,1.00);
 	text-align: center;
 	padding-top: 20px;
-
 }
+
 /*Footer styles*/
 .footerTitle {
     text-align: center;
     font-size: 22px;
 }
+
 .footerTextContainer {
 	text-align: center;
 	padding: 40px 10px 0px 0px;
 	margin-bottom: 10%;
 }
+
 .fluid.topNavLI.zeroMargin_desktop.zeroMargin_tablet.zeroMargin_mobile strong .linkStyle {
 }
+
 tr{
 	border-style: dotted;
 	border-width: thick;
 	border-color: black;
-
 }
+
+#tableFormat {
+padding-left: 295px;
+}
+
 table {
   border-collapse:inherit;
+  float: left;
 	border-spacing: 5px;
-	padding-left: 175px;
+
 }
+
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
 padding: 8px;
 line-height: 1.42857143;

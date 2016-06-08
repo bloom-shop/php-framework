@@ -27,159 +27,6 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 
 
 /* =============================================================================
-   Links
-   ========================================================================== */
-
-/*a { color: #00e; }
-a:visited {
-	color: #E3F498;
-	font-family: 'montserrat', sans-serif;
-	font-style: italic;
-	display: inline-block;
-	list-style-type: none;
-	background-color: #B8944D;
-	background-position: -7px -4px;
-	background-repeat: no-repeat;
-	position: relative;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-bottom: 2px solid #666;
-	border-right: 2px solid #777;
-	font-size: medium;
-	vertical-align: middle;
-	white-space: nowrap;
-	text-transform: none;
-	text-align: center;
-	clear: both;
-	float: left;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	text-decoration: underline;
-	word-spacing: normal;
-	letter-spacing: normal;
-	width: 100%;
-	text-shadow: 0px 0.25em 0.25em #1B1B1B;
-	margin-left: 0px;
-	padding-left: 0px;
-}*/
-/*turned this off*/
-/*a:hover {
-	color: #E3F498;
-	font-family: 'montserrat', sans-serif;
-	font-style: italic;
-	display: inline-block;
-	list-style-type: none;
-	background-color: #B8944D;
-	background-position: -7px -4px;
-	background-repeat: no-repeat;
-	position: relative;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-bottom: 2px solid #666;
-	border-right: 2px solid #777;
-	font-size: medium;
-	vertical-align: middle;
-	white-space: nowrap;
-	text-transform: none;
-	text-align: center;
-	clear: both;
-	float: left;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	text-decoration: underline;
-	word-spacing: normal;
-	letter-spacing: normal;
-	width: 100%;
-	text-shadow: 0px 0.25em 0.25em #1B1B1B;
-	margin-left: 0px;
-	padding-left: 0px;
-}*/
-
-/*a:focus {
-	outline: thin dotted;
-	font-family: 'montserrat', sans-serif;
-	font-style: italic;
-	display: inline-block;
-	list-style-type: none;
-	background-color: #584623;
-	background-position: -7px -4px;
-	background-repeat: no-repeat;
-	position: relative;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-bottom: 2px solid #666;
-	border-right: 2px solid #777;
-	font-size: medium;
-	vertical-align: middle;
-	white-space: nowrap;
-	text-transform: none;
-	text-align: center;
-	clear: both;
-	float: left;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	text-decoration: underline;
-	word-spacing: normal;
-	letter-spacing: normal;
-	color: #E8E9E5;
-	width: 100%;
-	text-shadow: 0px 0.25em 0.25em #1B1B1B;
-	-webkit-box-shadow: inset 0px 0px;
-	box-shadow: inset 0px 0px;
-	margin-left: 0px;
-	padding-left: 0px;
-}*/
-
-/*a:hover, a:active {
-	outline: 0;
-	background-color: #D504B4;
-	-webkit-box-shadow: inset 0px 0px;
-	box-shadow: inset 0px 0px;
-	background-repeat: no-repeat;
-	color: #F4E3E3;
-}*/
-
-
-/* =============================================================================
-   Typography
-   ========================================================================== */
-/*turned this off*/
-/*abbr[title] { border-bottom: 1px dotted; }
-
-b, strong { font-weight: bold; }
-
-blockquote { margin: 1em 40px; }
-
-dfn { font-style: italic; }
-
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }*/
-
-/* Redeclare monospace font family: h5bp.com/j */
-/*pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
-
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
-
-q { quotes: none; }
-q:before, q:after { content: ""; content: none; }
-
-small { font-size: 85%; }
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }*/
-
-
-/* =============================================================================
    Lists
    ========================================================================== */
 
@@ -206,9 +53,7 @@ img {
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
-	/*changed this from none*/
 	clear: both;
-	/*float: left;*/
 	background-position: center center;
 }
 
@@ -226,7 +71,6 @@ svg:not(:root) { overflow: hidden; }
 figure {
 
 }
-
 
 /* =============================================================================
    Forms

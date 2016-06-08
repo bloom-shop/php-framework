@@ -158,7 +158,6 @@ display: none;
 
 }
 
-
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -284,6 +283,7 @@ margin-left: 0;
 	clear: both;
 	margin-left: 0;
 }
+
 /* Navigation styles*/
 .topNav {
 	margin-left: 0px;
@@ -298,10 +298,10 @@ margin-left: 0;
 	background-image: url(/project/assets/blogPost/puppy.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 90%
-%;
+	background-position: 90% %;
 	background-position: center center;
 }
+
 .topNavUl {
 	width: 30%;
 	position: relative;
@@ -323,6 +323,7 @@ margin-left: 0;
 	clear: both;
 	line-height: normal;
 }
+
 .topNavLI {
 	width: 100%;
 	margin-left: 0;
@@ -352,11 +353,7 @@ margin-left: 0;
     padding-top:60px;
     padding-bottom:30px;
 }
-/*.mySection {
-	width: 40.6779%;
-	margin-left: 10.1694%;
-	clear: none;
-}*/
+
 #sectionOne {
 	width: 40.6779%;
 	margin-left: 8.4745%;

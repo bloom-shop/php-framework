@@ -5,7 +5,7 @@
 
               <h3><?php print $blog['title']; ?></h3>
               <p><?php print $blog['post']; ?></p>
-              <img src="<?php echo APP_BLOG_IMG . '/' . $blog['id'] . '.jpg'; ?>">
+              <img width="50%" src="<?php echo APP_BLOG_IMG . '/' . $blog['id'] . '.jpg'; ?>">
               <br>
               <small>Posted: <?php print $blog['create_date']; ?></small>
 

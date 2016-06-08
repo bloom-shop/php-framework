@@ -2,7 +2,7 @@
         <!-- page content -->
         <div class="col-md-9">
           <div class="pageContent">
-            <table class= "table table-striped table-hover">
+            <table id= "tableFormat" class= "table table-hover table-striped">
                 <thead>
                   <tr class="danger">
                     <th>Image</th>
@@ -16,7 +16,7 @@
 <?php while($row = $dbObj->dbFetch("assoc")){
   ?>
   <tr>
-    <td><img src="<?php echo APP_BLOG_IMG . '/' . $row['id'] . '.jpg'; ?>"width=120 height=120></td>
+    <td><img src="<?php echo APP_BLOG_IMG . '/' . $row['id'] . '.jpg'; ?>"width=120 height=90></td>
     <?php $row['id']; ?>
     <td><a href="<?php echo APP_DOC_ROOT . '/home/Item/' . $row['id']; ?>"class="linkStyle">
       <?php print $row['item_number']; ?>

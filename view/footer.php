@@ -21,21 +21,20 @@
   <!--added this-->
   <footer class="fluid footer">
   <section class="fluid footerSection zeroMargin_desktop zeroMargin_tablet"><h2 class="fluid footerTitle headingStyle">Locations</h2>
-
-    <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-</section>
-<section class="fluid footerSection hide_mobile">
-  <h2 class="fluid footerTitle headingStyle">Hours</h2>
-
-    <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="paraContent footerTextContainer">7890 W. 89th Street<br>Gresham, OR 97030</p>
 
 </section>
 <section class="fluid footerSection hide_mobile">
-  <h2 class="fluid footerTitle headingStyle">Special Events</h2>
+<h2 class="fluid footerTitle headingStyle">Hours</h2>
 
-    <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    
+  <p class="paraContent footerTextContainer">8am-9pm Monday-Friday<br>10am-6pm Saturday and Sunday</p>
+
+</section>
+<section class="fluid footerSection hide_mobile">
+<h2 class="fluid footerTitle headingStyle">Special Events</h2>
+
+  <p class="paraContent footerTextContainer">FREE shampoo with every purchase of a Dog Wash EVERY WEDNESDAY.</p>
+
 </section>
 </footer>
 <!--added all above this-->
@@ -46,8 +45,11 @@
     <!-- JavaScript Files
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+    <script src="<?php echo APP_DOC_ROOT; ?>/js/jquery.min.js"/></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+    <script src="<?php echo APP_DOC_ROOT; ?>/js/bootstrap.min.js"/></script>
+    <script src="<?php echo APP_DOC_ROOT; ?>/js/respond.min.js"/></script>
 
   </body>
 </html>
